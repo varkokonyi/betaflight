@@ -53,6 +53,16 @@
 #define USE_BARO
 #define USE_BARO_BMP280
 
+#define USE_TELEMETRY_IBUS
+#define USE_TELEMETRY_IBUS_EXTENDED
+
+#undef USE_SERIALRX_CRSF       // Team Black Sheep Crossfire protocol
+#undef USE_SERIALRX_SBUS       // Frsky and Futaba receivers
+#undef USE_SERIALRX_SPEKTRUM   // SRXL, DSM2 and DSMX protocol
+#undef USE_SERIALRX_SUMD       // Graupner Hott protocol
+#undef USE_SERIALRX_SUMH       // Graupner legacy protocol
+#undef USE_SERIALRX_XBUS   
+
 #if defined(FLIP32F3OSD)
 #define USE_GYRO_MPU6500
 #define GYRO_MPU6500_ALIGN CW270_DEG
